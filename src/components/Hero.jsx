@@ -31,7 +31,7 @@ const Hero = ({
                                 />
                             ))}
                         </div>
-                        <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-0'>
+                        <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-0 gap-3'>
                             {sociallinks?.map((val, i) => (
                                 <SocialLink key={i} icon={val.icon} />
                             ))}
